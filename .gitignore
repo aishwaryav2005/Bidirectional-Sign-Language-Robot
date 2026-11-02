@@ -1,0 +1,45 @@
+# ============================================================
+# Raw and processed datasets -- NOT hosted on GitHub.
+# See DATASET_INFO.md for sources, preprocessing scripts, and exact
+# regeneration commands for everything under data/.
+# ============================================================
+data/
+
+# ============================================================
+# Python virtual environment / bytecode / caches
+# ============================================================
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+# OS / editor temp files
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ============================================================
+# Project-local scratch files (temporary helper scripts, never
+# part of the real project -- see individual commit messages for
+# why a given scratch_*.ps1/py was created and removed)
+# ============================================================
+scratch_*.ps1
+scratch_*.py
+
+# ============================================================
+# Misc generated logs (outputs/ is KEPT -- it holds small diagnostic
+# images referenced directly from DATASET_INFO.md, e.g. the
+# handedness-convention verification plots)
+# ============================================================
+*.log
